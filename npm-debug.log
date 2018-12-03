@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.4
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\grahn\\dev\\ts\\ingredient-parser',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\grahn\AppData\Roaming\npm-cache\measurement-parser\0.0.1\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\grahn\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle measurement-parser@0.0.1~prepublish: measurement-parser@0.0.1
+11 silly lifecycle measurement-parser@0.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\grahn\\AppData\\Roaming\\npm-cache\\measurement-parser\\0.0.1\\package.tgz',
+12 verbose tar pack   'C:\\Users\\grahn\\dev\\ts\\ingredient-parser' ]
+13 verbose tarball C:\Users\grahn\AppData\Roaming\npm-cache\measurement-parser\0.0.1\package.tgz
+14 verbose folder C:\Users\grahn\dev\ts\ingredient-parser
+15 verbose addLocalTarball adding from inside cache C:\Users\grahn\AppData\Roaming\npm-cache\measurement-parser\0.0.1\package.tgz
+16 verbose correctMkdir C:\Users\grahn\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd measurement-parser@0.0.1
+18 verbose afterAdd C:\Users\grahn\AppData\Roaming\npm-cache\measurement-parser\0.0.1\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\grahn\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\grahn\AppData\Roaming\npm-cache\measurement-parser\0.0.1\package\package.json written
+21 silly publish { name: 'measurement-parser',
+21 silly publish   version: '0.0.1',
+21 silly publish   description: 'a library for parsing ingredients and their measurements from a standardized input format',
+21 silly publish   main: 'index.ts',
+21 silly publish   scripts: { test: 'jest' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/grahnj/ingredient-parser.git' },
+21 silly publish   keywords: [ 'ingredient', 'measurement' ],
+21 silly publish   author: { name: 'justin grahn' },
+21 silly publish   license: 'GPL-3.0',
+21 silly publish   bugs: { url: 'https://github.com/grahnj/ingredient-parser/issues' },
+21 silly publish   homepage: 'https://github.com/grahnj/ingredient-parser#readme',
+21 silly publish   devDependencies:
+21 silly publish    { '@types/jest': '^23.3.9',
+21 silly publish      jest: '^23.6.0',
+21 silly publish      'ts-jest': '^23.10.5',
+21 silly publish      typescript: '^3.1.6' },
+21 silly publish   readme: '# measurement-parser\r\nA library for parsing ingredients and measurements\r\n\r\n## Usage\r\n\r\nFirst, install the package using npm:\r\n\r\n\tnpm install measurement-parser --save\r\n\r\nThen, require the package and use it:\r\n\r\n\timport { IngredientParser } from \'parser\'\r\n\r\n\tconst parser = new IngredientParser();\r\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '8f4e98c306b91299309c188fe21d3d75fe33deec',
+21 silly publish   _id: 'measurement-parser@0.0.1',
+21 silly publish   _shasum: '62b1cfe197b128393b590ef31d8b83eefd33636d',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name measurement-parser
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'measurement-parser',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'measurement-parser',
+26 silly mapToRegistry   name: 'measurement-parser',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/measurement-parser
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\grahn\AppData\Roaming\npm-cache\measurement-parser\0.0.1\package.tgz
+30 verbose request uri https://registry.npmjs.org/measurement-parser
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 9:19:43 PM
+33 verbose request using bearer token for auth
+34 verbose request id 775669bca8f1698d
+35 http request PUT https://registry.npmjs.org/measurement-parser
+36 http 403 https://registry.npmjs.org/measurement-parser
+37 verbose headers { date: 'Mon, 03 Dec 2018 03:19:45 GMT',
+37 verbose headers   'content-type': 'application/json',
+37 verbose headers   'transfer-encoding': 'chunked',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'set-cookie': [ '__cfduid=d1d8b2544662d8ee60121ce2c0dc85cae1543807185; expires=Tue, 03-Dec-19 03:19:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+37 verbose headers   'cf-ray': '4832e4bb589e420d-MSP',
+37 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 verbose headers   vary: 'Accept-Encoding',
+37 verbose headers   server: 'cloudflare',
+37 verbose headers   'content-encoding': 'gzip' }
+38 verbose request invalidating C:\Users\grahn\AppData\Roaming\npm-cache\registry.npmjs.org\measurement-parser on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You cannot publish over the previously published versions: 0.0.1. : measurement-parser
+40 verbose stack     at makeError (C:\Users\grahn\AppData\Roaming\nvm\v6.14.4\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\grahn\AppData\Roaming\nvm\v6.14.4\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at C:\Users\grahn\AppData\Roaming\nvm\v6.14.4\node_modules\npm\node_modules\npm-registry-client\lib\request.js:216:7
+40 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+40 verbose stack     at emitNone (events.js:91:20)
+40 verbose stack     at Gunzip.emit (events.js:185:7)
+40 verbose stack     at endReadableNT (_stream_readable.js:978:12)
+40 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+40 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+41 verbose statusCode 403
+42 verbose pkgid measurement-parser
+43 verbose cwd C:\Users\grahn\dev\ts\ingredient-parser
+44 error Windows_NT 10.0.17134
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.14.4
+47 error npm  v3.10.10
+48 error code E403
+49 error You cannot publish over the previously published versions: 0.0.1. : measurement-parser
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
