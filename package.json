@@ -2,7 +2,7 @@
   "name": "measurement-parser",
   "version": "0.0.1",
   "description": "a library for parsing ingredients and their measurements from a standardized input format",
-  "main": "parser.ts",
+  "main": "index.ts",
   "scripts": {
     "test": "jest"
   },
