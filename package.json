@@ -1,0 +1,29 @@
+{
+  "name": "ingredient-parser",
+  "version": "0.0.1",
+  "description": "a library for parsing ingredients and their measurements from a standardized input format",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grahnj/ingredient-parser.git"
+  },
+  "keywords": [
+    "ingredient",
+    "measurement"
+  ],
+  "author": "justin grahn",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/grahnj/ingredient-parser/issues"
+  },
+  "homepage": "https://github.com/grahnj/ingredient-parser#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.1.6"
+  }
+}
